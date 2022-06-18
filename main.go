@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var s string
-	fmt.Print("Введите данные: ")
+	fmt.Print("Введите данные в консоль: ")
 	_, err := fmt.Scan(&s)
 	if err != nil {
 		log.Fatal(err)
